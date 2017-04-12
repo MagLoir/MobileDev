@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ride2There</string>
+    <string name="editMessage">Enter the verification code received in your email.</string>
+    <string name="editMessage2"> Please check your spam if not find in your inbox.</string>
+    <string name="verify">Verify</string>
+</resources>
+
