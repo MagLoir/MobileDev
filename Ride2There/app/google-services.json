@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "835615538098",
+    "firebase_url": "https://my-project-1492644178614.firebaseio.com",
+    "project_id": "my-project-1492644178614",
+    "storage_bucket": "my-project-1492644178614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835615538098:android:8c931cca7a7739eb",
+        "android_client_info": {
+          "package_name": "com.example.pungi.ride2there"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835615538098-eml4kt5dnpsdbtejimavq7lve4kljabt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pungi.ride2there",
+            "certificate_hash": "307aa2127b37440a063af95a41d4e3d945a1491b"
+          }
+        },
+        {
+          "client_id": "835615538098-75d9tusm7ntpd1epvbt5ai3asd8gbdvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq8G4eAl2tt8fKToezH24NJfFQmBn_RqQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835615538098-75d9tusm7ntpd1epvbt5ai3asd8gbdvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
