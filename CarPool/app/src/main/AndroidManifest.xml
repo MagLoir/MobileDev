@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pungi.carpool" >
+    package="my.project.pungi.mojochat" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -30,7 +30,7 @@
             android:resource="@color/colorAccent" />
 
         <activity
-            android:name="com.example.pungi.carpool.LoginActivity"
+            android:name=".LoginActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,12 +40,12 @@
         </activity>
 
         <activity
-            android:name="com.example.pungi.carpool.MessageActivity"
+            android:name=".MessageActivity"
             android:label="Chat"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="com.example.pungi.carpool.SettingActivity"
+            android:name=".SettingActivity"
 
             android:theme="@style/AppTheme.NoActionBar" />
         <!--<activity
@@ -54,12 +54,12 @@
             android:theme="@style/AppTheme.NoActionBar" />-->
 
         <activity
-            android:name="com.example.pungi.carpool.SignupActivity"
+            android:name=".SignupActivity"
             android:label="Sign In"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity
-            android:name="com.example.pungi.carpool.ResetPasswordActivity"
+            android:name=".ResetPasswordActivity"
             android:label="ResetPasswordActivity"
             android:theme="@style/AppTheme.NoActionBar">
 

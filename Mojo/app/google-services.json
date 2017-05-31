@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1052559128235",
+    "firebase_url": "https://mojochat-b59cb.firebaseio.com",
+    "project_id": "mojochat-b59cb",
+    "storage_bucket": "mojochat-b59cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052559128235:android:0cd24e5526a2b770",
+        "android_client_info": {
+          "package_name": "chatting.mojo.mojo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052559128235-pnahu9jm2bj5cusoh2d9immhmtf6hfan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfcqi3Lq4XAN-GOagQBhq0kO60DU1y3LE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
