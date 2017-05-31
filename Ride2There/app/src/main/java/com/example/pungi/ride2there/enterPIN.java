@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import static com.example.pungi.ride2there.R.id.register;
+//import static com.example.pungi.ride2there.R.id.register;
 
 /**
  * Created by pungi on 12-Apr-17.

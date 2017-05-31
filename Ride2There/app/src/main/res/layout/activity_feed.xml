@@ -10,37 +10,67 @@
     android:orientation="horizontal"
     android:background="#ffff">
 
-       <!-- <LinearLayout
+        <!--<LinearLayout
             android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">-->
+            android:layout_height="wrap_content">
             <TextView
                 android:layout_gravity="center"
                 android:layout_weight="5"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                />
-            <ImageView
-                android:layout_weight="2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/message"
-                android:cropToPadding="true"
-                />
-            <ImageView
-                android:layout_weight="2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/alert"
-                />
-            <ImageView
-                android:layout_weight="2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/setting"
-                />
+                />-->
 
 
+            <Button
+                android:id="@+id/notif"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="Notification"
+                android:background="@drawable/notification"
+                android:textColor="#fff"
+                android:padding="1dp"
+                android:gravity="center"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                />
+
+            <Button
+                android:id="@+id/convo"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:background="@drawable/msg"
+                android:textColor="#fff"
+                android:padding="1dp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+
+                />
+            <Button
+                android:id="@+id/setgs"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Setting"
+                android:background="@drawable/setg"
+                android:textColor="#fff"
+                android:padding="1dp"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="4dp"
+
+                />
+
+           <!-- </LinearLayout>-->
     </LinearLayout>
 
     <LinearLayout
@@ -51,36 +81,48 @@
         android:background="#3fa9f5">
 
     </LinearLayout>
-    <ScrollView
+    <LinearLayout
         android:layout_weight="70"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="#3fa9f5">
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:hint="To Where..."
-                android:layout_weight="9"
-                android:padding="10dp"
+            <ListView
+                android:layout_weight="1"
+                android:id="@+id/postList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:background="#fff"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
-                android:layout_gravity="fill_horizontal"/>
+                android:layout_marginRight="5dp">
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@android:drawable/ic_menu_send"/>
+
+
+            </ListView>
 
         </LinearLayout>
 
-        </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#3fa9f5">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="To Where..."
+            android:layout_weight="9"
+            android:padding="10dp"
+            android:background="#fff"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="fill_horizontal"/>
+
+
+        </LinearLayout>
 
 </LinearLayout>
